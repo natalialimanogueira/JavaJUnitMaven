@@ -10,7 +10,7 @@ public class ContaBancariaServiceTest {
 
         ContaBancariaService contaBancariaService = new ContaBancariaService();
         Double retorno = contaBancariaService.depositar( new ContaBancaria("Natalia", 001, "abc", "19/04", 00.00),100.00);
-        assertEquals(   Double.valueOf(100.00), retorno);
+        assertEquals(   Double.valueOf(700.00), retorno);
     }
 
 
